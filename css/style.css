@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "lato", sans-serif;
+    font-weight:  400px;
+    font-size: 16px;
+    line-height: 1.7;
+    color : #777;
+    padding: 28px;
+}
+
+.logo-box {
+    position: absolute;
+    left:3%;
+    top:5%;
+    background-color: #ff6000;
+    border:0px 10px 0px 10px solid #ff6000;
+
+}
+
+.logoName{
+    color: #fff;
+    padding: 5px 15px;
+
+}
+
+.header {
+    height: 95vh;
+    background-image:  linear-gradient( to right bottom,
+        rgba(30, 51, 240, 0.5),
+        rgba(4, 24, 244, 0.5) ), 
+         url(../images/firstimg.jpeg); 
+    background-size: cover; 
+    background-position: top;
+    position: relative;
+}
+
+.heading-box {
+    position: absolute;
+    top:40%;
+    left: 20%;
+}
+
+.heading-primary {
+    color: #fff;
+    backface-visibility: hidden;
+    padding-left: 150px;
+    
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 70px;
+}
+
+.container{
+    border: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.item{
+    background-color: #ff6000;
+    padding: 15px;
+    color: #fff;
+}
+
+.nav-icon{
+    background-color: blue !important ;
+    color:white;
+    padding: 15px; 
+}
+.padit {
+    padding-right: 200px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.sectionTwo{
+    padding-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.homeSectionOne{
+    padding: 70px 30px  0 150px ;
+    color:black;
+    text-align: left;
+}
+
+
+.btnBlue {
+    color: #fff;
+    background-color: #051be5;
+    padding: 10px 0 10px 5px;
+    border: none;
+    display:inline;
+}
+
+.homeSectionTwo {
+   margin: 0 40px;
+   height:259px;
+   position: relative;
+   
+}
+
+
+.insideThis {
+    background-color:  rgba(4, 24, 244, 0.7);
+    position: absolute;
+    bottom: -210px;
+    padding: 10px;
+
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container-two{
+    background-color: #0000ff;
+    margin-block-start: 7%;
+    max-height: 440px;
+
+}
+
+.container-sectionOne{
+    display: flex;
+    justify-content: center;
+}
+
+.sectOne{
+    padding-left:80px;
+    margin-top: 0;
+    top:-30px ;
+    position: relative;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.inside {
+    background-color: #ff6000;
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    margin-right: 40px;
+    padding: 5px 10px 2px 10px;
+
+}
+.readmore {
+    color: #fff;
+    border: none;
+    background-color: #ff6000;
+    text-align: center;
+}
+.b1{
+    margin:50px 100px 10px 250px;
+    padding: 10px 10px 10px 5px;
+
+}     
+
+
+.parawhite{
+    color:#fff;
+}
+
+.sectTwo{
+    color:#fff;
+    text-align: left;
+    padding:50px 250px 0 80px ;
+    position: relative;
+}
+.insideIcon {
+    position: absolute;
+    bottom: 60px;
+    right:0;
+
+}
+
+.padMe {
+    padding: 10px;
+}
+
+.container-sectionTwo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top:40px;
+    justify-content: center;
+    
+}
+.sectTwo-one {
+    padding: 40px 350px;
+    text-align: center;
+    flex-wrap: wrap;
+    color: black;
+
+}
+
+.sectTwo-two {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+ 
+.gridOne {
+    border: 0.1px solid #e4e0e0;
+    padding: 10px 15px;
+    color: #373648;
+}
+.i2{
+    border-bottom: 2px solid #ff6000;
+}
+p{
+    color: #5c5b6b;
+}
+
+.sectThree{
+    display: flex; 
+    justify-content: flex-end;  
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 60px;
+    position: relative;
+    background-color: #f9f9f9; 
+}
+
+.sectThree-one {
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 40px;
+    color:#373648;
+  
+}
+h2{
+    font-weight: 50px;
+}
+
+.layout2 {
+    display:grid;
+    grid-template-rows: 110px 110px ; 
+    grid-template-columns: repeat(2, 1fr); 
+    padding-top: 10px;
+    grid-row-gap: 20px;
+}
+
+/* FOOTER */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    padding: 70px 150px 50px 200px;
+ }
+ 
+   
